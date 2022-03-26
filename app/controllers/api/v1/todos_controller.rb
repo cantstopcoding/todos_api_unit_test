@@ -1,3 +1,5 @@
 class Api::V1::TodosController < ApplicationController
-  def index; end
+  def index
+    render json: []
+  end
 end
